@@ -10,7 +10,7 @@ import numpy as np
 # you need keras 2.1.4 , tensorflow 1.4.0 and python2 to run this
 
 m = load_model('16en_UK2_no_ent.h5')
-glovevocab = json.loads( open().read('16en_lidong_mttdsc_deploy_vocab.json') )
+glovevocab = json.loads( open('16en_lidong_mttdsc_deploy_vocab.json').read() )
 
 
 def get_sentiment( sent_l , target , sent_r  ):
