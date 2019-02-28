@@ -108,5 +108,5 @@ ENV/
 # Data, IDE and log dirs
 data
 .idea
-outputs/**
+# outputs/**
 logs
