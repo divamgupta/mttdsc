@@ -19,16 +19,20 @@ $ cd /path/to/mttdsc
 $ unzip /path/to/zipfile
 ```
 
+If you want to prepare the data sets by yourself,
 
-
+```shell
+(mttdsc)$ cd /path/to/mttdsc/data_prep
+(mttdsc)$ cd python prep_data_Lidong.py
+```
 ## Training the models
 
 To train the models use train.py . Refer to the following commands 
 
 ```shell
-python train.py config_files/tdgru_lidong.json   # training TDGRU on Lidong Dataset
-python train.py config_files/naive_mtl_lidong.json   # training NaiveMTL on Lidong Dataset
-python train.py config_files/mttdsc_lidong.json   # training MTTDSC on Lidong Dataset
+(mttdsc)$ python train.py config_files/tdgru_lidong.json   # training TDGRU on Lidong Dataset
+(mttdsc)$ python train.py config_files/naive_mtl_lidong.json   # training NaiveMTL on Lidong Dataset
+(mttdsc)$ python train.py config_files/mttdsc_lidong.json   # training MTTDSC on Lidong Dataset
 ```
 
 Test results would be printed towared the end of completion of the script. 
