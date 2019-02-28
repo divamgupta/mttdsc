@@ -19,3 +19,12 @@ $ cd /path/to/mttdsc
 $ unzip /path/to/zipfile
 ```
 
+## Using the pretrained model
+
+We have provided an easy to use API to get the the sentiment of any sentence. The API automatically downloads the model weights. Refer to the following snippet to use our pretrained sentiment model. 
+
+```python
+from tdsc_pretrained import get_sentiment
+print get_sentiment( 'i like taylor swift and her music is great'  , 'taylor swift'  )
+```
+
