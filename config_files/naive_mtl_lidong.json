@@ -1,0 +1,1 @@
+{"nEn": 16, "nHidden": 64, "n_tasks": 2, "recurrent_dropout": 0.2, "exp_name": "NaiveMTL_lidong", "dropout": 0.2, "batch_size": 64, "dataset": "./data/tdlstm_prepped_1.h5", "epochs": 6, "n_samp": 18744, "model_name": "NaiveMTL", "maxSentenceL": 35, "rnn_type": "gru"}

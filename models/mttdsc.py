@@ -164,19 +164,19 @@ class MTTDSC(Trainer):
         
 
     
-config = {}
-config['maxSentenceL'] = 35
-config['nHidden'] = 64
-config['dropout'] = 0.2
-config['recurrent_dropout'] = 0.2
-config['epochs'] = 3 
-config['batch_size'] = 64
-config['rnn_type'] = 'gru'
-config['nEn'] = 16
-config['dataset'] = "./data/tdlstm_prepped_1.h5"
-config['n_samp'] = 18744
-config['n_tasks'] = 2
+# config = {}
+# config['maxSentenceL'] = 35
+# config['nHidden'] = 64
+# config['dropout'] = 0.2
+# config['recurrent_dropout'] = 0.2
+# config['epochs'] = 3 
+# config['batch_size'] = 64
+# config['rnn_type'] = 'gru'
+# config['nEn'] = 16
+# config['dataset'] = "./data/tdlstm_prepped_1.h5"
+# config['n_samp'] = 18744
+# config['n_tasks'] = 2
 
-model = MTTDSC( exp_location="/tmp" , config_args = config )
-model.train()
+# model = MTTDSC( exp_location="/tmp" , config_args = config )
+# model.train()
 

@@ -19,6 +19,22 @@ $ cd /path/to/mttdsc
 $ unzip /path/to/zipfile
 ```
 
+
+
+## Training the models
+
+To train the models use train.py . Refer to the following commands 
+
+```shell
+python train.py config_files/tdgru_lidong.json   # training TDGRU on Lidong Dataset
+python train.py config_files/naive_mtl_lidong.json   # training NaiveMTL on Lidong Dataset
+python train.py config_files/mttdsc_lidong.json   # training MTTDSC on Lidong Dataset
+```
+
+Test results would be printed towared the end of completion of the script. 
+
+UK Election dataset will be added shortly. 
+
 ## Using the pretrained model
 
 We have provided an easy to use API to get the the sentiment of any sentence. The API automatically downloads the model weights. Refer to the following snippet to use our pretrained sentiment model. 
