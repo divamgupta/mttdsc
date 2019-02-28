@@ -1,0 +1,14 @@
+name: mtl_girnet
+channels:
+    - https://conda.anaconda.org/menpo
+    - conda-forge
+dependencies:
+    - python==2.7.6
+    - keras==2.1.4
+    - tensorflow-gpu==1.4.0
+    - numpy==1.14.3
+    - h5py
+    - scikit-learn
+    - dlblocks==0.1
+    - tqdm==4.28.1
+    - matplotlib
