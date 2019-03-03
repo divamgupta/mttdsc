@@ -4,7 +4,7 @@ import numpy as np
 import keras
 
 
-# you need keras 2.1.4 , tensorflow 1.4.0 and python2 to run this
+# you need keras 2.1.3 , tensorflow 1.4.0 and python2 to run this
 
 
 model_url = 'https://github.com/divamgupta/mttdsc/releases/download/weights_lidong/16en_lidong_mttdsc_deploy.h5'
